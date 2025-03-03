@@ -1,5 +1,5 @@
 # 2.-Bases-de-datos-y-SQL
-###Contexto
+# Contexto
 
 El restaurante "Sabores del Mundo", es conocido por su auténtica cocina y su ambiente
 acogedor.
@@ -11,11 +11,11 @@ oportunidad y aprovechar al máximo sus datos para optimizar las ventas.
 Identificar cuáles son los productos del menú que han tenido más éxito y cuales son los que
 menos han gustado a los clientes.
 
-###Pasos a seguir
+### Pasos a seguir
 
-#a) Crear la base de datos con el archivo create_restaurant_db.sql
+# a) Crear la base de datos con el archivo create_restaurant_db.sql
 
-#b) Explorar la tabla “menu_items” para conocer los productos del menú.
+# b) Explorar la tabla “menu_items” para conocer los productos del menú.
 
 1.- Realizar consultas para contestar las siguientes preguntas:
 ● Encontrar el número de artículos en el menú.
@@ -23,7 +23,7 @@ menos han gustado a los clientes.
 ● ¿Cuántos platos americanos hay en el menú?
 ● ¿Cuál es el precio promedio de los platos?
 
-#c) Explorar la tabla “order_details” para conocer los datos que han sido recolectados.
+# c) Explorar la tabla “order_details” para conocer los datos que han sido recolectados.
 
 1.- Realizar consultas para contestar las siguientes preguntas:
 ● ¿Cuántos pedidos únicos se realizaron en total?
@@ -31,7 +31,7 @@ menos han gustado a los clientes.
 ● ¿Cuándo se realizó el primer pedido y el último pedido?
 ● ¿Cuántos pedidos se hicieron entre el '2023-01-01' y el '2023-01-05'?
 
-#d) Usar ambas tablas para conocer la reacción de los clientes respecto al menú.
+# d) Usar ambas tablas para conocer la reacción de los clientes respecto al menú.
 
 1.- Realizar un left join entre entre order_details y menu_items con el identificador
 item_id(tabla order_details) y menu_item_id(tabla menu_items).
