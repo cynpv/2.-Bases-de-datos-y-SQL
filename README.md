@@ -1,5 +1,5 @@
-# 2.-Bases-de-datos-y-SQL
-# Contexto
+### 2.-Bases-de-datos-y-SQL
+### Contexto
 
 El restaurante "Sabores del Mundo", es conocido por su auténtica cocina y su ambiente
 acogedor.
